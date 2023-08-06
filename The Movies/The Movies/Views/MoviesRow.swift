@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MoviesRow: View {
-    var theMovie: MovieResponseData?
+    var theMovie: MoviesDataModel.MovieData?
     
     var body: some View {
         VStack {

@@ -37,31 +37,16 @@ final class APIManager {
                 _=completionHandler(nil)
                 return
             }
-//                do {
-//                    guard let json = try JSONSerialization.jsonObject(with: responseData!, options: [.fragmentsAllowed]) as? NSDictionary else {
-//                        completionHandler(nil)
-//                        return
-//                    }
-//                    print("Response: \(json)")
-//                    completionHandler(json)
-//
-//                }
-//                catch let parseError {
-//                    print(parseError)
-//                    let myDictOfDict: NSDictionary = ["data" : "iOS2"]
-//                    completionHandler(myDictOfDict)
-//
-//                }
-                
-                let decoder = JSONDecoder()
-                do {
-                    let result = try decoder.decode(T.self, from: response)
-                    _=completionHandler(result)
-                }
-                catch let error{
-                    debugPrint("error occured while decoding = \(error)")
-                    _=completionHandler(nil)
-                }
+            
+            let decoder = JSONDecoder()
+            do {
+                let result = try decoder.decode(T.self, from: response)
+                _=completionHandler(result)
+            }
+            catch let error{
+                debugPrint("error occured while decoding = \(error)")
+                _=completionHandler(nil)
+            }
         }.resume()
     }
 }

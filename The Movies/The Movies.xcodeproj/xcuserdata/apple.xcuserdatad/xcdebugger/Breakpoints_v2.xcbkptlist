@@ -3,4 +3,102 @@
    uuid = "13FDDF12-956B-4BA7-8F27-FDFEFB6F3AE7"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3269C8D0-0E80-4EE9-9797-E6A2B9757F27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Movies/NetworkLayer/MoviesResources.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getMovies(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3269C8D0-0E80-4EE9-9797-E6A2B9757F27 - 27f4c92c737a86a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "The_Movies.MoviesAPIResources.getMovies(completionHandler: (Swift.Optional&lt;The_Movies.MovieResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "The Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Demos/to_do_task/The%20Movies/The%20Movies/NetworkLayer/MoviesResources.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "3269C8D0-0E80-4EE9-9797-E6A2B9757F27 - 27f4c92c737a86a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "The_Movies.MoviesAPIResources.getMovies(completionHandler: (Swift.Optional&lt;The_Movies.MovieResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "The Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Demos/to_do_task/The%20Movies/The%20Movies/NetworkLayer/MoviesResources.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0E76A1F-43EF-4C7A-BE35-3FE1DC056836"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Movies/NetworkLayer/MovieDetailsResources.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getMoviesDetails(movie_id:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F0E76A1F-43EF-4C7A-BE35-3FE1DC056836 - f9c755122afece3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "The_Movies.MoviesDetailsAPIResources.getMoviesDetails(movie_id: Swift.Int, completionHandler: (Swift.Optional&lt;The_Movies.MovieDetailResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "The Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Demos/to_do_task/The%20Movies/The%20Movies/NetworkLayer/MovieDetailsResources.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "F0E76A1F-43EF-4C7A-BE35-3FE1DC056836 - f9c755122afece3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "The_Movies.MoviesDetailsAPIResources.getMoviesDetails(movie_id: Swift.Int, completionHandler: (Swift.Optional&lt;The_Movies.MovieDetailResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "The Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Demos/to_do_task/The%20Movies/The%20Movies/NetworkLayer/MovieDetailsResources.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "981">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

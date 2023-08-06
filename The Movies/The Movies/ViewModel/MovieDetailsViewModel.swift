@@ -24,6 +24,7 @@ class MovieDetailsViewModel: ObservableObject, MovieDetails {
     init(movieId: Int, movieDetailResources: MoviesDetailsResources) {
         self.movieId = movieId
         self.movieDetailResources = movieDetailResources
+        getMoviesDetails()
     }
     
     convenience init() {

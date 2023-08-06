@@ -18,9 +18,6 @@ struct MovieDetailsView: View {
             }
         }
         .navigationBarTitle(Text(movieViewModel.movieDetailsDataModel.movieDetails?.originalTitle ?? ""), displayMode: .inline)
-        .onAppear {
-            movieViewModel.getMoviesDetails()
-        }
         .alert(isPresented: $movieViewModel.movieDetailsDataModel.showAlert) {
             Alert(title: Text("Alert"), message: Text("Something went wrong"), dismissButton: .default(Text("OK")))
         }
